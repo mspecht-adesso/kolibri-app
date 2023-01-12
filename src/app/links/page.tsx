@@ -8,6 +8,7 @@ const Links = () => {
 		<>
 			<div>Links</div>
 			<Link />
+			<Button />
 		</>
 	);
 };
