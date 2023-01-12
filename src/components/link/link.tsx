@@ -4,6 +4,7 @@ const Link = () => {
 	return (
         <>
 		    <div>Link without KoliBri</div>
+			<a href="/">Home</a>
         </>
 	);
 };

@@ -8,11 +8,15 @@ const About = () => {
 	return (
         <>
 		    <div>About</div>
-            <div>
+            <div className="my-10">
                 <KolButton _label="KolButton" />
             </div>
-            <Button />
+            <div className="my-10">
             <Link />
+            </div>
+            <div className="my-10">
+            <Button />
+            </div>
         </>
 	);
 };
