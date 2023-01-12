@@ -19,12 +19,9 @@ export const Button2 = ({
 }: Button2Props) => {
   return (
     <>
-    <Meta
-      { ...props }
-      component={KolButton}
-      />
+    <Meta title="KolButton" />
     
-    <Story name="story" >
+    <Story name="Bar">
     <KolButton
       {...props}
       >{props._label}</KolButton>
