@@ -1,6 +1,9 @@
 import React from 'react';
 import { KolButton } from '@public-ui/react';
 
+import { Meta, Story } from '@storybook/addon-docs';
+
+
 interface Button2Props {
   _label: string;
   _type: "button" | "reset" | "submit" | undefined;
@@ -15,8 +18,17 @@ export const Button2 = ({
   ...props
 }: Button2Props) => {
   return (
+    <>
+    <Meta
+      { ...props }
+      component={KolButton}
+      />
+    
+    <Story name="story" >
     <KolButton
       {...props}
-    >{props._label}</KolButton>
+      >{props._label}</KolButton>
+    </Story>
+      </>
   );
 };
