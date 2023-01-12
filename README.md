@@ -35,3 +35,4 @@ Unit-Tests lassen sich wie folgt ausführen:
 E2E-Tests lassen sich wie folge ausführen:
 
 `npm run nightwatch -- -e chrome`
+# KoliBri-NextJS13

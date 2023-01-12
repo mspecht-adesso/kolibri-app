@@ -3,6 +3,9 @@ const nextConfig = {
 	devIndicators: {
 		autoPrerender: false,
 	},
+	experimental: {
+	  appDir: true,
+	},
 };
 
 module.exports = nextConfig;

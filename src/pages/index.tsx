@@ -2,6 +2,8 @@ import { KolAlert, KolIcon, KolKolibri, KolLink } from '@public-ui/react';
 import React from 'react';
 import Head from 'next/head';
 
+import { KolButton } from '@public-ui/react';
+
 const Index = () => {
 	return (
 		<>
@@ -30,6 +32,15 @@ const Index = () => {
 						</div>
 					</div>
 					<strong className="text-2xl">Willkommen zu KoliBri</strong>
+					<div>
+						<KolButton _label="KoliBri Button" />
+					</div>
+					<div>
+						<KolLink _label="about" _href="/about" />
+					</div>
+					<div>
+						<KolLink _label="links" _href="/links" />
+					</div>
 				</header>
 				<main className="grid md:grid-cols-2 gap-6 p-12">
 					<KolAlert _type="success" _heading="Dokumentation" _variant="card" _level={2}>

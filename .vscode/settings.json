@@ -1,8 +1,12 @@
 {
-	"editor.formatOnSave": true,
-	"editor.renderWhitespace": "all",
-	"javascript.updateImportsOnFileMove.enabled": "always",
-	"typescript.preferences.importModuleSpecifier": "relative",
-	"typescript.updateImportsOnFileMove.enabled": "always",
-	"html.customData": ["./node_modules/@public-ui/components/vscode-custom-data.json"]
+  "editor.formatOnSave": true,
+  "editor.renderWhitespace": "all",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "html.customData": [
+    "./node_modules/@public-ui/components/vscode-custom-data.json"
+  ],
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true
 }
