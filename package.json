@@ -18,7 +18,9 @@
   "scripts": {
     "build": "next build",
     "dev": "next dev",
+    "dev:turbo": "turbo dev",
     "format": "prettier --check src/**",
+    "lint:turbo": "turbo build lint",
     "run": "next start",
     "start": "next dev",
     "update": "ncu -t minor -u && ncu",
